@@ -29,6 +29,6 @@ function date2filename(date_string) {
   const year = date.getFullYear();
   const month = (date.getMonth() + 1).toString().padStart(2, "0")
   const day = date.getDate().toString().padStart(2, "0")
-  return 'kesa' + year + month + day + ".mp3"
+  return 'takedas' + year + month + day + ".mp3"
 }
 main()
